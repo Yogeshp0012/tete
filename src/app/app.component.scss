@@ -1,0 +1,19 @@
+.bg-gradient-hover {
+    background-image: linear-gradient(to right, transparent 0%, transparent 0%);
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    transition: background-size 0.5s ease-in-out;
+}
+
+  .bg-gradient-hover:hover {
+    background-image: linear-gradient(to right, #2563eb, #1e40af);
+    background-size: 100% 100%;
+    color: white;
+    transition:  background-size 0.5s ease-in-out,color 0.3s ease-in-out;
+    background-color: transparent;
+  }
+
+  .whiteText{
+    color: white !important;
+  }
